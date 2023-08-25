@@ -193,7 +193,7 @@ var codeDisplay = document.getElementById("codetime");
 
 function refreshCode() {
     
-  var codeString = Math.floor(Date.now() * Math.random()).toString(316);
+  var codeString = Math.floor(Date.now() * Math.random()).toString(36);
   var formattedString = codeString;
   codeDisplay.innerHTML = formattedString;
 }
